@@ -15,6 +15,7 @@
 		E20396711D8F868300BDE085 /* MFActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20396701D8F868300BDE085 /* MFActionSheetUITests.m */; };
 		E20396801D8F86D200BDE085 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E203967F1D8F86D200BDE085 /* ViewController.m */; };
 		E20396831D8F870400BDE085 /* MFActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E20396821D8F870400BDE085 /* MFActionSheet.m */; };
+		E2BB1E461D90006A0071BAFB /* actionsheet.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2BB1E451D90006A0071BAFB /* actionsheet.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E203967F1D8F86D200BDE085 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E20396811D8F870400BDE085 /* MFActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFActionSheet.h; sourceTree = "<group>"; };
 		E20396821D8F870400BDE085 /* MFActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFActionSheet.m; sourceTree = "<group>"; };
+		E2BB1E451D90006A0071BAFB /* actionsheet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = actionsheet.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		E20396471D8F868300BDE085 /* MFActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				E2BB1E451D90006A0071BAFB /* actionsheet.gif */,
 				E203964B1D8F868300BDE085 /* AppDelegate.h */,
 				E203964C1D8F868300BDE085 /* AppDelegate.m */,
 				E203967E1D8F86D200BDE085 /* ViewController.h */,
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BB1E461D90006A0071BAFB /* actionsheet.gif in Resources */,
 				E203965B1D8F868300BDE085 /* LaunchScreen.storyboard in Resources */,
 				E20396581D8F868300BDE085 /* Assets.xcassets in Resources */,
 			);
@@ -501,6 +505,7 @@
 				E20396771D8F868300BDE085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E20396781D8F868300BDE085 /* Build configuration list for PBXNativeTarget "MFActionSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				E203967A1D8F868300BDE085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E203967B1D8F868300BDE085 /* Build configuration list for PBXNativeTarget "MFActionSheetUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				E203967D1D8F868300BDE085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
