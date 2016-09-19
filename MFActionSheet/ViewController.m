@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MFActionSheet.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+     self.title = @"MFActionSheet";
+
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    MFActionSheet* sheet = [MFActionSheet actionSheetCancelTitle:@"cancel" alertTitle:@"提示文字" subTitles:@"点赞",@"举报",nil];
+    [sheet setActionSheetDidItemClick:^(MFActionSheet *actionSheet, NSIndexPath *indexPath, NSString *title) {
+        NSLog(@"title = %@",title);
+    }];
+    [sheet setActionSheetDismissItemClick:^(MFActionSheet *actionSheet, NSIndexPath *indexPath, NSString *title) {
+        NSLog(@"cancel");
+    }];
+    [sheet pop];
 }
 
 - (void)didReceiveMemoryWarning {
