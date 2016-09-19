@@ -2,7 +2,7 @@
 MFActionSheet是参考微信的ActionSheet仿写的一个轮子，使用方法简单。
 
 ##效果演示
-![](https://github.com/mafeng-Bryant/MFActionSheet/raw/master/actionsheet.gif)
+![](https://github.com/mafeng-Bryant/MFActionSheet/actionsheet.gif)
 
 ##使用方法
 <pre><code>
