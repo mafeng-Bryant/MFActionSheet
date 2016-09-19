@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ViewController.h
 //  MFActionSheet
 //
 //  Created by patpat on 16/9/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ViewController : UIViewController
 
 @end
-

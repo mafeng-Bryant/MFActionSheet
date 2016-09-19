@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  MFActionSheet.h
 //  MFActionSheet
 //
 //  Created by patpat on 16/9/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface MFActionSheet : UIView
 
 @end
-
